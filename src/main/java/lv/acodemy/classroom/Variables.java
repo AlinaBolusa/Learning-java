@@ -48,7 +48,7 @@ public class Variables {
         //Improves readability
         long population = 1_000_000_000L; // 1 billion;
 
-        //Avoding mistake
+        //Avoiding mistake
         int creditCardNumber = 1234_567;
 
         //double
