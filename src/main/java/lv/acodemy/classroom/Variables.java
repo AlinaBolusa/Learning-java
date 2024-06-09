@@ -28,11 +28,14 @@ public class Variables {
 
         // short
         // Game Score:
+        short playerScore = 15000;
+
+        // Year of birth:
         short yearOfBirth = 1990;
 
         //char (Character)
         // Grade:
-        char grads = 'A';
+        char grade = 'A';
 
         //Initials;
         char firstInitial = 'A';
@@ -69,7 +72,7 @@ public class Variables {
         double financialDebt = 23_459_455_234.67775;
 
         // Distance
-        double distanceToSun = 149_765_987_4; // in km;
+        double distanceToSun = 149_7865_987_8.4; // in km;
 
         // Boolean (true/false)
         //has or is prefixed
@@ -90,9 +93,9 @@ public class Variables {
         // / - division (8/2)
         // + - addition (6+6)
         // - - subtraction (7-4)
-        // ++ (+1)
-        // -- (-1)
-        // % (the remainder after dividing a by b)
+        // ++ (+1) добавляем 1
+        // -- (-1) отнемаем 1
+        // % (the remainder after dividing a by b) остатком с делением
         boolean evenNumber = 4 % 2 == 0; //true
         boolean oddNumber = 4 % 3 == 0; //false
 
