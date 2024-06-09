@@ -4,23 +4,23 @@ public class PlayWithString {
     public static void main(String[] args) {
 
         String name = "Alina";
-        String surname = "Bolusa";
+        String surName = "Bolusa";
 
         // My name is: Alina Bolusa
 
-        String myText = "My name is: " + name + " " + surname;
+        String myText = "My name is: " + name + " " + surName;
 
         // Concatenation
         System.out.println(myText);
-        System.out.println("My name is: " + name + " " + surname);
+        System.out.println("My name is: " + name + " " + surName);
 
         //Interpolation
         // %s - for text
         // %d - for numeric values
 
-        String interpolation = String.format("My name is: %s %s", name, surname);
+        String interpolation = String.format("My name is: %s %s", name, surName);
         System.out.println(interpolation);
-        System.out.printf(String.format("My name is: %s %s", name, surname));
+        System.out.printf(String.format("My name is: %s %s", name, surName));
 
         // Exercise
         String firstName = "Alina";

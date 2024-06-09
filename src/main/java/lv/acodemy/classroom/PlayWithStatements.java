@@ -21,7 +21,7 @@ public class PlayWithStatements {
             System.out.println("This is true!");
         }
 
-        // exercise 2: write program that will check if veriable y is even
+        // exercise 2: write program that will check if variables y is even
 
         int y = 12;
         if (y % 2 == 0) {
@@ -70,7 +70,7 @@ public class PlayWithStatements {
             System.out.println("Z is negative number");
         }
 
-        // Exercise 5: if name equal John, then print out - We found John! or variabls contains John
+        // Exercise 5: if name equal John, then print out - We found John! or variables contains John
         String name = "Mary";
         if (name.equals("John")) {
             System.out.println("Variable contains name");
@@ -137,20 +137,6 @@ public class PlayWithStatements {
         // from 10 to 20 (teplo) /
         // from 20 to 30 (zharko) / >30 - ocen zarko
 
-        int[] temperatures = {-5, 12, 18, 8, 21, 29, 30, 1, 45, 0};
-        for (int temperature : temperatures) {
-            if (temperature > 30) {
-                System.out.printf("Temperature %d is ochen zarko\n", temperature);
-            } else if (temperature > 20) {
-                System.out.printf("Temperature %d is zarko\n", temperature);
-            } else if (temperature > 10) {
-                System.out.printf("Temperature %d is teplo\n", temperature);
-            } else if (temperature > 0) {
-                System.out.printf("Temperature %d is prohladno\n", temperature);
-            } else {
-                System.out.printf("Temperature %d is holodno\n", temperature);
-            }
-        }
 
         int[] temperatures1 = {-5, 12, 18, 8, 21, 29, 30, 1, 45, 9};
         for (int temperature : temperatures1) {
